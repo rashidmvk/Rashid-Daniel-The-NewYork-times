@@ -1,0 +1,13 @@
+
+
+.header-box 
+{
+display: flex;	
+justify-content: space-around;
+padding: 4px,15px,2px;
+}
+
+.header-box .subscribe button {
+background-color: #567B95;
+padding: 11px,12px,8px;
+}
