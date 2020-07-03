@@ -1,18 +1,13 @@
-* {
-background-color: #fff;
-}
 
-header {
-position: fixed;
-display: flex;
+
+.header-box 
+{
+display: flex;	
 justify-content: space-around;
-position: fixed;
-width: 100%;
-padding: 1% 0.35%;
-top: 0;
+padding: 4px,15px,2px;
 }
 
-.hd-btn {
-background-color: #0000ff;
-color: #fff;
+.header-box .subscribe button {
+background-color: #567B95;
+padding: 11px,12px,8px;
 }
