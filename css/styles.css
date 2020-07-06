@@ -32,3 +32,15 @@ padding: 11px,12px,8px;
 	text-align: center;
 	font-style: italic;
 }
+
+.B {
+	width: 900px;
+	height: 531px;
+	margin: auto;
+	}
+
+.B img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
