@@ -1,6 +1,6 @@
 
 
-.header-box 
+header .header-box 
 {
 display: flex;	
 justify-content: space-around;
@@ -12,3 +12,16 @@ background-color: #567B95;
 padding: 11px,12px,8px;
 }
 
+.nav-left {
+	display: flex;
+	justify-content: space-around;
+}
+.header-box .fa-bars {
+	margin: 0px,8px,0px,0px;
+	padding-top: 8px,9px,9px;
+
+}
+.header-box .nav-right {
+	display: flex;
+
+}
