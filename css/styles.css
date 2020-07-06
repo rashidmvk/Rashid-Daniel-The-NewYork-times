@@ -25,3 +25,10 @@ padding: 11px,12px,8px;
 	display: flex;
 
 }
+
+.A {
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	font-style: italic;
+}
