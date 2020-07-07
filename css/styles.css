@@ -1,39 +1,110 @@
-
-
-header .header-box 
-{
-display: flex;	
-justify-content: space-around;
-padding: 4px,15px,2px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header-box .subscribe button {
-background-color: #567B95;
-padding: 11px,12px,8px;
+body{
+    background-color:#ffffff;
+}
+
+html{
+    font-size: 13px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+	padding: 4px 15px 2px;
+	border: 1px solid lightgray;
+	height: 43px;
 }
 
 .nav-left {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	padding-left: 5px;
+}
+
+.nav-right {
 	display: flex;
 	justify-content: space-around;
-}
-.header-box .fa-bars {
-	margin: 0px,8px,0px,0px;
-	padding-top: 8px,9px,9px;
-
-}
-.header-box .nav-right {
-	display: flex;
-
+	align-items: center;
+	padding-right: 5px;
 }
 
+.nav-right .subscribe {
+	cursor: pointer;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+	border-color: rgb(50, 104, 145);
+	padding: 11px 12px 8px;
+	margin: 0px 7px 0px 0px;
+}
+
+.nav-right .login {
+	cursor: pointer;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+	border-color: rgb(50, 104, 145);
+	padding: 11px 12px 8px;
+}
+
+
+.fa-bars:before {
+	content: "\f0c9"; 
+    display:flex;
+	padding: 8px 9px 9px;
+	margin: 0px 10px 0px 0px;
+}
+.nyt img {
+	width: 195px;
+	height: 25px;
+	margin: auto;
+}
+.fa-search::before 
+{
+
+	content: "\f0c9"; 
+    display:flex;
+	padding: 8px 9px 9px;
+	margin: 0px 8px 0px 0px;
+
+}
+
+main {
+
+	padding: 60px 0px 0px ;
+}
 .A {
+	display: flex;
 	font-size: 40px;
-	font-weight: bolder;
-	text-align: center;
 	font-style: italic;
+	font-weight: bolder;
+	margin: 0px 339px 16px;
+	width: 600px;
+	height: 96px;
+	align-items: center;
+	padding-left: 150px;
 }
 
-.B {
+ .B {
 	width: 900px;
 	height: 531px;
 	margin: auto;
@@ -42,5 +113,8 @@ padding: 11px,12px,8px;
 .B img {
 	width: 100%;
 	height: auto;
-	text-align: center;
+}
+
+.C {
+	font-size: 14px;
 }
