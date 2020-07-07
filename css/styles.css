@@ -3,12 +3,17 @@
     padding: 0;
 }
 
-body{
-    background-color:#ffffff;
+html{
+	font-size: 13px;
+	box-sizing: border-box;
 }
 
-html{
-    font-size: 13px;
+*, *:before, *after {
+	box-sizing: inherit;
+}
+
+body{
+    background-color:#ffffff;
 }
 
 header {
@@ -105,9 +110,10 @@ main {
 }
 
  .B {
-	width: 900px;
+	width: 1200px;
 	height: 531px;
-	margin: auto;
+	margin: 15em auto;
+	margin-top: 1px;
 	}
 
 .B img {
@@ -117,4 +123,10 @@ main {
 
 .C {
 	font-size: 14px;
+}
+
+.article-box {
+  width: 50%;
+  border: 5px solid #a52a2a;
+  margin: auto;
 }
