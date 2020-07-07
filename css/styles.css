@@ -26,6 +26,8 @@ header {
 	padding: 4px 15px 2px;
 	border: 1px solid lightgray;
 	height: 43px;
+	position: fixed;
+	width: 100%;
 }
 
 .nav-left {
