@@ -223,6 +223,8 @@ main {
 
 .author-favicons ul li {
 	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
  .date-one {
@@ -290,11 +292,40 @@ margin: auto;
 
 .author-favicons-two ul {
 	list-style: none;
+	margin: 15px;
 }
 
 .author-favicons-two ul li {
 	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
+#button {
+background-color: #5380ac;
+width: 290px;
+height: 35px;
+color: #fff;
+font-weight: bold;
+border-color: #5380ac;
+border-radius: 3px;
+margin: 12px;
+}
 
+.grid-stream {
+ display: grid;
+}
 
+.flex-stream {
+display: flex;
+flex-wrap: wrap;
+}
+
+.diagram-ff {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.diagram {
+width: 100%
+background-image: url("images/inflate.png");
+}
