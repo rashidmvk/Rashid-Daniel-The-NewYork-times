@@ -217,6 +217,7 @@ main {
 	list-style: none;
 	margin-bottom: 15px;
 	padding-bottom: 9px;
+	justify-content: space-around;
 	
 }
 
@@ -278,3 +279,22 @@ font-size: 16px;
 width: 100%;
 margin: auto;
 }
+
+.article-link-style{
+	color: #0d80f2;
+}
+
+.author-favicons-two {
+	float: right;
+}
+
+.author-favicons-two ul {
+	list-style: none;
+}
+
+.author-favicons-two ul li {
+	display: inline-block;
+}
+
+
+
