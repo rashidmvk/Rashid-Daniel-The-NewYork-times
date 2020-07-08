@@ -147,7 +147,6 @@ main {
 	margin: auto;
 }
 
-#dennis {
 	
 }
 .footer-section1 {
@@ -201,4 +200,81 @@ main {
 .list-items h3 {
 	width: 150px;
 	height: 25px;
+}
+
+
+.title {
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.author-favicons {
+ float: right;
+}
+
+.author-favicons ul{
+	list-style: none;
+	margin-bottom: 15px;
+	padding-bottom: 9px;
+	
+}
+
+.author-favicons ul li {
+	display: inline-block;
+}
+
+ .date-one {
+	 position: absolute;
+	 top: 1045px;
+}
+
+.paragraph-style {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 18px;
+ margin: 8px;
+}
+
+#mid-add-style {
+	width: 40%;
+	margin: auto;
+	padding: 6px;
+}
+
+  .brief-line-bottom {
+	width: 30%;
+	margin: auto;
+	margin-top: 25px
+
+  }
+
+ .brief-line-top {
+	width: 30%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+#add-link {
+ text-decoration: none;
+ color: #0d80f2;
+ font-weight: bold;
+ margin: 9px;
+ font-size: 16px;
+}
+
+#add-p {
+font-weight: bold;
+margin: 9px;
+font-size: 16px;
+}
+
+.article-title {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.box-img {
+width: 100%;
+margin: auto;
 }
