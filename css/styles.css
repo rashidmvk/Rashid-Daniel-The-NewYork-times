@@ -132,3 +132,20 @@ main {
   border: 5px solid #a52a2a;
   margin: auto;
 }
+
+.section-box{
+	max-width: 80%;
+	padding: 5%;
+	border: 4px solid #000;
+	margin: 5em auto;
+}
+
+.main-box {
+	width: 85%;
+	border: 4px solid #9acd32;
+	margin: auto;
+}
+
+#dennis {
+	
+}
