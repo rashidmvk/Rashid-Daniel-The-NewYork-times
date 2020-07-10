@@ -13,7 +13,9 @@ html{
 }
 
 body{
-    background-color:#ffffff;
+	background-color:#ffffff;
+	width: 100%;
+	height: auto;
 }
 
 header {
@@ -207,6 +209,7 @@ main {
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
+
 }
 
 .author-favicons {
@@ -275,6 +278,7 @@ font-size: 16px;
 	color: #000;
 	font-size: 20px;
 	font-weight: bold;
+	margin: 3px;
 }
 
 .box-img {
@@ -323,9 +327,78 @@ flex-wrap: wrap;
 
 .diagram-ff {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	width: 140%;
+	text-align: left;
+	color: #1a1a1a;
 }
 
 .diagram {
-width: 100%
-background-image: url("images/inflate.png");
+display: grid;
+ width: 900px;
+ grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+}
+
+#diagram-img {
+width: 980px;
+position: relative;
+right: 90px;
+margin: 10px;
+}
+
+.text {
+ display: grid;
+}
+
+.universe {
+ position: relative;
+ right: 1085px;
+ top: 184px;
+}
+
+.not-enough {
+	position: relative;
+	right: 840px;
+	top: 80px;	
+}
+
+.distance {
+	position: relative;
+	right: 586px;
+	bottom: 25px;	
+}
+
+.coffee {
+	position: relative;
+	right: 333px;
+	bottom: 116px;	
+}
+
+.still {
+	position: relative;
+	right: 1087px;
+	top: 50px;	
+}
+
+.inflation {
+	position: relative;
+	right: 845px;
+	bottom: 55px	
+}
+
+.expansion {
+	position: relative;
+	right: 336px;
+	bottom: 280px
+}
+
+.fluctuation {
+	position: relative;
+	right: 593px;
+	bottom: 175px	
+}
+.diagram-title {
+ margin: 4px;
 }
