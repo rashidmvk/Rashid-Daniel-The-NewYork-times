@@ -408,9 +408,7 @@ margin: 10px;
 .diagram-title {
  margin: 4px;
 }
-width: 100%;
-background-image: url("images/inflate.png");
-}
+
 
 .footer-section2 {
 	width: inherit;
@@ -436,7 +434,6 @@ li {
   }
  
   .bottom-window button  {
-	
 		position: fixed;
 		left: 0;
 		bottom: 0;
@@ -444,7 +441,29 @@ li {
 		height: 8%;
 		background-color: red;
 		color: white;
-		text-align: center;
-	 
+		text-align: center; 
+  }
 
+  .theory-intro {
+	  width: 910px;
+	  position: relative;
+	  right: 80px;
+  }
+
+  .diagram-author {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+	margin: 14px;
+	font-weight: lighter;
+	position: relative;
+	top: 550px;
+	right: 1275px;
+  }
+
+  .diagram-name {
+	  margin: 10px;
+	  width: 200%;
+	  position: relative;
+	  right: 10px;
   }
