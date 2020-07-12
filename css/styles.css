@@ -568,3 +568,36 @@ margin: 10px;
 	  position: relative;
 	  right: 10px;
   }
+
+  .bottom-window button {
+	  display: flex;
+		align-items: center;
+		justify-content: center;
+  }
+
+  .bwin1 {
+	  margin-left: 35%;
+	  word-spacing: 8px;
+
+  }
+
+  .bwin2 {
+	margin-left: 28%;
+  }
+  .bwin2 a {
+	  text-decoration: none;
+	  color:white
+  }
+
+  .bwin3  {
+	  margin-left: 6%;
+	  margin-right: 1%;
+  }
+
+.bwin3 a {
+
+
+
+	  text-decoration: none;
+	  color: white;
+  }
