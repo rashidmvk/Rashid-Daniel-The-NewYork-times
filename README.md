@@ -2,7 +2,7 @@
 
 > As part of our proffesional training Module by Microver, we cloned New York times website.
 
-![screenshot]()
+![screenshot](images/screen.png)
 
 
 ## Built With
