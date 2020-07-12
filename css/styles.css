@@ -18,6 +18,7 @@ body {
 	background-color: #ffffff;
 	width: 100%;
 	height: auto;
+	overflow-x: hidden;
 }
 
 header {
@@ -480,6 +481,10 @@ aside {
 	font-weight: bold;
 
 }
+.side-topic a:hover {
+	color: black;
+	text-decoration: underline;
+}
 
 .grid-container {
 	display: grid;
@@ -490,6 +495,10 @@ aside {
 	font-weight: bold;
 	font-size: 19px;
 	border-bottom: 1px solid #bdaa9c;
+}
+.grid-container a {
+	text-decoration: none;
+	color: black;
 }
 
 .grid-container img {
@@ -528,6 +537,7 @@ span {
 	grid-gap: 20px;
 	font-size: 19px;
 	color: #000;
+	font-weight: bold;
 }
 
 .grid-container2 img {
@@ -615,4 +625,13 @@ span {
 
 	text-decoration: none;
 	color: white;
+}
+
+.grid-container2 a {
+	text-decoration: none;
+	color: black;
+}
+
+aside a:hover {
+	color: rgb(47, 77, 77);
 }
