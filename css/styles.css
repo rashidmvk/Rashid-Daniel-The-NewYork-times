@@ -510,7 +510,7 @@ aside {
 }
 
 aside a,
-aside span {
+span {
 	font-family: Georgia, "Times New Roman", Times, serif, n;
 	display: flex;
 	flex-direction: column;
