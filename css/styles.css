@@ -141,7 +141,7 @@ main {
 
 .section-box {
 	max-width: 80%;
-	padding: 5%;
+	padding: 1%;
 	border: 4px solid #fff;
 	margin: 5em auto;
 }
@@ -317,12 +317,6 @@ main {
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-section {
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-top: 20px;
 }
 
 #button {
@@ -516,7 +510,7 @@ aside {
 }
 
 aside a,
-span {
+aside span {
 	font-family: Georgia, "Times New Roman", Times, serif, n;
 	display: flex;
 	flex-direction: column;
