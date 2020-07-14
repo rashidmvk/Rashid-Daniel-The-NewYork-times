@@ -536,10 +536,9 @@ aside span {
 }
 
 .diagram-name {
-	margin: 20px;
+	margin: 10px;
 	width: 200%;
-	position: relative;
-	right: 17px;
+	position: ;
 }
 
 .bottom-window button {
