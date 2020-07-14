@@ -33,6 +33,7 @@ header {
 	height: 43px;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 
 .navbar-section1 {
@@ -330,22 +331,30 @@ main {
 	margin: 12px;
 }
 
-.grid-stream {
+.inflation-grid {
 	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	row-gap: 20px;
+	column-gap: 20px;
+
 }
 
 .flex-stream {
 	display: flex;
 	flex-wrap: wrap;
 }
+.inflation-grid img {
+	width: 120px;
+	height: 100px;
+}
 
 .diagram-ff {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 13px;
 	font-weight: lighter;
-	width: 140%;
-	text-align: left;
+	width: 40%;
 	color: #1a1a1a;
+	height: 60%;
 }
 
 .diagram {
@@ -362,15 +371,8 @@ main {
 	margin: 10px;
 }
 
-.text {
-	display: grid;
-}
 
-.universe {
-	position: relative;
-	right: 1085px;
-	top: 184px;
-}
+
 
 .not-enough {
 	position: relative;
