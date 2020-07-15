@@ -11,7 +11,7 @@
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://raw.githack.com/rashidmvk/Rashid-Daniel-The-NewYork-times/feature/index.html)
+[Live Demo Link](https://rashidmvk.github.io/Rashid-Daniel-The-NewYork-times/)
 
 ## Authors
 
