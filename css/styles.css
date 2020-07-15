@@ -334,18 +334,19 @@ main {
 .inflation-grid {
 	width: 1000px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	display:grid;
-	row-gap:10px;
-	column-gap:10px;
+	display: grid;
+	row-gap: 10px;
+	column-gap: 10px;
 	height: auto;
 	position: relative;
-	right:80px;
+	right: 80px;
 }
 
 .flex-stream {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .inflation-grid img {
 	width: 120px;
 	height: 100px;
@@ -366,8 +367,8 @@ main {
 	flex-direction: column;
 }
 
-#inflation-img {
- width: 80%;
+.inflation-img {
+	width: 80%;
 }
 
 
@@ -431,6 +432,7 @@ aside {
 	font-weight: bold;
 
 }
+
 .side-topic a:hover {
 	color: black;
 	text-decoration: underline;
@@ -446,6 +448,7 @@ aside {
 	font-size: 19px;
 	border-bottom: 1px solid #bdaa9c;
 }
+
 .grid-container a {
 	text-decoration: none;
 	color: black;
@@ -580,4 +583,9 @@ aside span {
 
 aside a:hover {
 	color: rgb(47, 77, 77);
+}
+
+iframe {
+	width: 600px;
+	height: 358px;
 }
