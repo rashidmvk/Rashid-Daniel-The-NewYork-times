@@ -1,0 +1,6 @@
+{
+    ...
+    "scripts": {
+        "webhint": "hint http://localhost:8080"
+    }
+}
