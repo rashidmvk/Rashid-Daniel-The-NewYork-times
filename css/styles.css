@@ -94,7 +94,6 @@ header {
 }
 
 .fa-search::before {
-
 	content: "\f0c9";
 	display: flex;
 	padding: 8px 9px 9px;
@@ -103,7 +102,6 @@ header {
 }
 
 main {
-
 	padding: 60px 0px 0px;
 }
 
@@ -225,7 +223,6 @@ main {
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
-
 }
 
 .author-favicons {
@@ -237,7 +234,6 @@ main {
 	margin-bottom: 15px;
 	padding-bottom: 9px;
 	justify-content: space-around;
-
 }
 
 .author-favicons ul li {
@@ -376,8 +372,6 @@ main {
 	margin: 4px;
 }
 
-
-
 .footer-section2 {
 	width: inherit;
 	height: inherit;
@@ -430,7 +424,6 @@ aside {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
-
 }
 
 .side-topic a:hover {
@@ -520,7 +513,6 @@ aside span {
 	margin: 15px 0px 15px 0px;
 }
 
-
 .theory-intro {
 	width: 975px;
 	position: relative;
@@ -554,7 +546,6 @@ aside span {
 .bwin1 {
 	margin-left: 35%;
 	word-spacing: 8px;
-
 }
 
 .bwin2 {
